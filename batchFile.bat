@@ -1,4 +1,4 @@
-call C:\Users\h\Desktop\project4\venv\Scripts\activate
-@cd C:\Users\h\Desktop\project4
-python z.py
+call C:\Users\h\Desktop\projectSiwoo\venv\Scripts\activate
+@cd C:\Users\h\Desktop\projectSiwoo
+python update.py
 pause
