@@ -185,4 +185,4 @@ def update_data():
 if __name__ == "__main__":
     run_update()
     update_data()
-
+    print("확인")
