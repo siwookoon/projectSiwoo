@@ -1,0 +1,4 @@
+call C:\Users\김시우\Desktop\projectSiwoo\venv\Scripts\activate
+@cd C:\Users\김시우\Desktop\projectSiwoo
+python update.py
+pause
