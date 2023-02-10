@@ -108,6 +108,7 @@ def run_predict():
                         a += 1
                     else:
                         ws = pd.concat([ws , wm])
+                ws.rename(columns={'SGG_NM' : '지역구 이름', 'YM' : '년월', 'RENT_FEE' : '월세'}, inplace=True)        
                 st.write(ws)
     
     elif sub_choice == '전월세 실거래수 지역 순위':
